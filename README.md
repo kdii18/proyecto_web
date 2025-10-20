@@ -5,8 +5,6 @@ Este proyecto es una aplicación web desarrollada con React, enfocada en mostrar
 Forma parte de un proyecto académico del curso Desarrollo Basado en Plataformas.
 
 
----
-
 Tecnologías utilizadas
 
 React.js – Biblioteca principal para la interfaz.
@@ -19,7 +17,6 @@ JavaScript (ES6+) – Lógica del cliente.
 
 
 
----
  Estructura principal
 
 App.js: Define las rutas principales del proyecto (/login, /registro, /intereses, /for-you).
