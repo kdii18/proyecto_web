@@ -1,0 +1,148 @@
+.registro-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+.registro-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.mountain {
+  width: 40px;
+  height: 40px;
+  background-color: #ff6b00;
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+.black {
+  color: #000;
+  font-size: 28px;
+}
+
+.orange {
+  color: #ff6b00;
+  font-size: 28px;
+}
+
+.subtitle {
+  color: #666;
+  font-size: 14px;
+  margin-top: -5px;
+  letter-spacing: 2px;
+}
+
+.registro-form-section {
+  background: white;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+.registro-form {
+  width: 100%;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #333;
+  font-size: 14px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: #ff6b00;
+}
+
+.checkbox-group {
+  display: flex;
+  align-items: flex-start;
+  margin: 25px 0;
+  padding: 15px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+
+.checkbox-group input {
+  margin-right: 12px;
+  margin-top: 2px;
+}
+
+.checkbox-group label {
+  font-size: 13px;
+  color: #555;
+  line-height: 1.4;
+  font-weight: normal;
+}
+
+.btn-registro {
+  width: 100%;
+  padding: 14px;
+  background-color: #ff6b00;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.btn-registro:hover {
+  background-color: #e55a00;
+}
+
+.registro-footer {
+  text-align: center;
+  margin-top: auto;
+  padding-top: 30px;
+  color: #666;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .registro-container {
+    padding: 20px 15px;
+  }
+  
+  .registro-form-section {
+    padding: 30px 20px;
+  }
+  
+  .black, .orange {
+    font-size: 24px;
+  }
+}
